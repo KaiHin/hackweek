@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Main layout of mood page -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <!-- Title of mood page -->
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titleArtist"
+            android:gravity="top|center_horizontal"
+            android:textSize="30sp"
+            />
+    <!--  I'm section -->
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/whereHeader"
+              android:gravity="top|center_horizontal"
+              android:textSize="20sp"/>
+    <EditText android:layout_width="match_parent"
+              android:layout_weight="1"
+              android:hint="@string/whereText"
+              android:id="@+id/whereText"
+              android:gravity="top|center_horizontal"
+              android:layout_height="wrap_content"
+              android:textSize="15sp"/>
+    <!-- and feel like section -->
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/feelHeader"
+              android:gravity="top|center_horizontal"
+              android:textSize="20sp"/>
+    <EditText android:layout_width="match_parent"
+              android:layout_weight="1"
+              android:hint="@string/feelText"
+              android:id="@+id/feelText"
+              android:gravity="top|center_horizontal"
+              android:layout_height="wrap_content"
+              android:textSize="15sp"/>
+    <!-- with section -->
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/withHeader"
+              android:gravity="top|center_horizontal"
+              android:textSize="20sp"/>
+    <EditText android:layout_width="match_parent"
+              android:layout_weight="1"
+              android:hint="@string/withText"
+              android:id="@+id/withText"
+              android:gravity="top|center_horizontal"
+              android:layout_height="wrap_content"
+              android:textSize="15sp"/>
+    <!-- music style section -->
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/musicstyleHeader"
+              android:gravity="top|center_horizontal"
+              android:textSize="20sp"/>
+    <EditText android:layout_width="match_parent"
+              android:layout_weight="1"
+              android:hint="@string/musicstyleText"
+              android:id="@+id/muscistyleText"
+              android:gravity="top|center_horizontal"
+              android:layout_height="wrap_content"
+              android:textSize="15sp"/>
+    <Button   android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/buttonPlay"
+            />
+</LinearLayout>
+

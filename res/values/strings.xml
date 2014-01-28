@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="appName">Hackweek App Kay</string>
+    <string name="titleArtist">Your mood, your music!</string>
+    <string name="whereHeader">I am</string>
+    <string name="whereText">where?</string>
+    <string name="feelHeader">and feel like</string>
+    <string name="feelText">what?</string>
+    <string name="withHeader">with</string>
+    <string name="withText">who?</string>
+    <string name="musicstyleHeader">to</string>
+    <string name="musicstyleText">music style?</string>
+    <string name="buttonPlay">Play this sentence</string>
+</resources>
