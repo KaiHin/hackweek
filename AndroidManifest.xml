@@ -12,5 +12,13 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".displaySentenceActivity"
+                  android:label="@string/displaySentence"
+                  android:parentActivityName="com.kaihin.hackweek.moodActivity" >
+                <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfirstapp.moodActivity"
+                />
+        </activity>
     </application>
 </manifest>

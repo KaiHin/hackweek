@@ -21,7 +21,7 @@
               android:textSize="20sp"/>
     <EditText android:layout_width="match_parent"
               android:layout_weight="1"
-              android:hint="@string/whereText"
+              android:hint="@string/whereHint"
               android:id="@+id/whereText"
               android:gravity="top|center_horizontal"
               android:layout_height="wrap_content"
@@ -34,7 +34,7 @@
               android:textSize="20sp"/>
     <EditText android:layout_width="match_parent"
               android:layout_weight="1"
-              android:hint="@string/feelText"
+              android:hint="@string/feelHint"
               android:id="@+id/feelText"
               android:gravity="top|center_horizontal"
               android:layout_height="wrap_content"
@@ -47,7 +47,7 @@
               android:textSize="20sp"/>
     <EditText android:layout_width="match_parent"
               android:layout_weight="1"
-              android:hint="@string/withText"
+              android:hint="@string/withHint"
               android:id="@+id/withText"
               android:gravity="top|center_horizontal"
               android:layout_height="wrap_content"
@@ -60,7 +60,7 @@
               android:textSize="20sp"/>
     <EditText android:layout_width="match_parent"
               android:layout_weight="1"
-              android:hint="@string/musicstyleText"
+              android:hint="@string/musicstyleHint"
               android:id="@+id/muscistyleText"
               android:gravity="top|center_horizontal"
               android:layout_height="wrap_content"
@@ -68,6 +68,7 @@
     <Button   android:layout_width="match_parent"
               android:layout_height="wrap_content"
               android:text="@string/buttonPlay"
-            />
+              android:id="@+id/buttonPlay"
+              android:onClick="sendSentence"/>
 </LinearLayout>
 
